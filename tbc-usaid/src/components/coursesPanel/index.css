@@ -1,0 +1,15 @@
+.courses-panel-wrapper {
+  display: grid;
+  grid-template-columns: var(--grid-columns);
+  background-color: var(--bg-dark-grey);
+}
+.courses-wrapper {
+  grid-column-start: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 30px;
+  margin: 40px 0px;
+}

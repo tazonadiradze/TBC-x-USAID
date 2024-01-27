@@ -1,0 +1,5 @@
+:root {
+  --grid-columns: 4fr 10fr 4fr;
+  --bg-dark-grey: rgb(22, 22, 22);
+  --bg-light-grey: rgb(43, 43, 43);
+}
