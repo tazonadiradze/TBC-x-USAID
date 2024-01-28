@@ -17,7 +17,9 @@ const Course: FC<ExpandableProps> = ({ image, title, status }) => {
             <div>{title}</div>
             <div>{status}</div>
           </div>
-          <div>კურსის დეტალები</div>
+          <div className="course-details">
+            <span>&#8594;</span>კურსის დეტალები
+          </div>
         </div>
       </div>
     </div>

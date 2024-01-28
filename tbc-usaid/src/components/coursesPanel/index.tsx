@@ -61,9 +61,13 @@ function CoursesPanel() {
   {
     return (
       <div className="courses-panel-wrapper">
-        <div className="courses-wrapper">
-          {Courses.map(({ title, status, img }) => {
-            return <Course title={title} status={status} image={img} />;
+        <div className="courses-panel">
+          {Courses.map(({ title, status, img }, index) => {
+            return (
+              <div key={index}>
+                <Course title={title} status={status} image={img} />;
+              </div>
+            );
           })}
         </div>
       </div>

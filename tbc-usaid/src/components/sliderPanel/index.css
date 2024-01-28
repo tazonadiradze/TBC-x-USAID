@@ -1,0 +1,29 @@
+.slider-panel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: rgb(43, 43, 43);
+}
+
+.slider-panel {
+  width: 66%;
+}
+
+@media screen and (max-width: 1750px) {
+  .slider-panel-img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider-panel-img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .slider-panel-img {
+    width: 70%;
+  }
+}

@@ -1,0 +1,16 @@
+.FAQ-expandable {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.expandable-button {
+  border: none;
+  background: none;
+}
+.arrow {
+  width: 30px;
+  border: none;
+  background: none;
+}

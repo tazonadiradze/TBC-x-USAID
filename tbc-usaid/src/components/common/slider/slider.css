@@ -1,0 +1,21 @@
+.custom-class {
+  display: flex !important;
+  padding-left: 100px !important;
+  align-items: center !important;
+}
+
+.swiper-button-next {
+  color: white !important;
+  right: 0px !important;
+}
+
+.swiper-button-prev {
+  color: white !important;
+  left: 0px !important;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+.swiper-pagination {
+  bottom: -4px !important;
+}

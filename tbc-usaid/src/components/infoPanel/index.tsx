@@ -21,8 +21,8 @@ function InfoPanel() {
             {backgroundImageText.map(({ title, subTitle, id }) => {
               return (
                 <div key={id}>
-                  <div>{title}</div>
-                  <div>{subTitle}</div>
+                  <div className="info-panel-title">{title}</div>
+                  <div className="info-panel-subtitle">{subTitle}</div>
                 </div>
               );
             })}
@@ -31,9 +31,9 @@ function InfoPanel() {
       </div>
       <div>
         <Text size={"small"} type={"default"}>
-          {detaildInformation.map(({ description, link }) => {
+          {detaildInformation.map(({ description, link }, index) => {
             return (
-              <div className="info-panel-description">
+              <div key={index} className="info-panel-description">
                 <div className="info-panel-content">{description}</div>
                 <div className="link">{link}</div>
               </div>
